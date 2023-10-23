@@ -1,5 +1,37 @@
 header {
-	.nav-link {
-		color: #fff;
+	.navbar-expand-lg {
+		padding-top: 25px;
+		padding-bottom: 39px;
+	}
+	.navbar {
+		.container {
+			.navbar-brand {
+				padding: 0;
+				margin: 0 0 0 78px;
+			}
+		}
+		.navbar-nav {
+			margin: 0 auto;
+			max-width: 602px;
+			width: 100%;
+			justify-content: space-between;
+			.nav-link {
+				color: #fff;
+				&:hover {
+					color: $color-secondary;
+				}
+			}
+		}
+	}
+
+	.navbar-collapse {
+		.btn {
+			width: 171px;
+			height: 50px;
+			border: none;
+			border-radius: 90px;
+			background: $color-primary;
+			color: #fff;
+		}
 	}
 }
