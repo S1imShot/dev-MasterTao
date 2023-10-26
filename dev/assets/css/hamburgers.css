@@ -65,7 +65,8 @@
    * Elastic
    */
 .hamburger--elastic .hamburger-inner {
-	top: 5px;
+	top: 7px;
+	left: 13px;
 	transition-duration: 0.275s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -87,6 +88,6 @@
 	opacity: 0;
 }
 .hamburger--elastic.is-active .hamburger-inner::after {
-	transform: translate3d(0, -20px, 0) rotate(-270deg);
+	transform: translate3d(0, -24px, 0) rotate(-270deg);
 	transition-delay: 0.075s;
 }
