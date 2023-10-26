@@ -40,8 +40,8 @@
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-	width: 40px;
-	height: 4px;
+	width: 27.5px;
+	height: 2px;
 	background-color: #ffffff;
 	border-radius: 4px;
 	position: absolute;
@@ -65,16 +65,16 @@
    * Elastic
    */
 .hamburger--elastic .hamburger-inner {
-	top: 2px;
+	top: 5px;
 	transition-duration: 0.275s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .hamburger--elastic .hamburger-inner::before {
-	top: 10px;
+	top: 12px;
 	transition: opacity 0.125s 0.275s ease;
 }
 .hamburger--elastic .hamburger-inner::after {
-	top: 20px;
+	top: 23px;
 	transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
