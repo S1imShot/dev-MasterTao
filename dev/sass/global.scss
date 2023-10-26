@@ -1,3 +1,14 @@
 body {
 	background: #282b38;
 }
+
+.container {
+	max-width: 1164px;
+}
+
+.btn {
+	border: none;
+	border-radius: 90px;
+	background: $color-primary;
+	color: #fff;
+}
