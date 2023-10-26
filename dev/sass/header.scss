@@ -18,8 +18,17 @@ header {
 				}
 			}
 		}
+		.navbar-toggler-icon {
+			background-image: none;
+		}
 	}
 
+	.navbar-toggler {
+		border: none;
+		&:focus {
+			box-shadow: none;
+		}
+	}
 	.navbar-collapse {
 		.btn {
 			padding: 12px 26px;
