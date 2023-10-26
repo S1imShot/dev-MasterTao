@@ -12,3 +12,7 @@ body {
 	background: $color-primary;
 	color: #fff;
 }
+
+.btn:hover {
+	background-color: $color-secondary;
+}
