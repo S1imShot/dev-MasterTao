@@ -1,9 +1,14 @@
 body {
 	background: #282b38;
+	color: #fff;
 }
 
 .container {
 	max-width: 1164px;
+}
+
+.container-xxl {
+	max-width: 1820px;
 }
 
 .btn {
@@ -11,6 +16,22 @@ body {
 	border-radius: 90px;
 	background: $color-primary;
 	color: #fff;
+}
+
+.btn-arrow {
+	display: flex;
+	border: none;
+	border-radius: 90px;
+	background: $color-primary;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 146%;
+	padding: 20px 29px;
+}
+
+.arrow {
+	padding-left: 49px;
 }
 
 .btn:hover {

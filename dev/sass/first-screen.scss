@@ -1,3 +1,45 @@
-h1 {
-    color: blue;
+.first-screen-slider {
+	.container {
+		padding-top: 163px;
+		padding-bottom: 228px;
+	}
+
+	.slick-slide {
+		border-radius: 20px;
+		height: 700px;
+	}
+
+	.slick-dots {
+		// cursor: pointer;
+		position: absolute;
+		// max-width: 110px;
+		// display: flex;
+		// justify-content: space-between;
+		left: 50%;
+		transform: translate(-50%, 0);
+		bottom: 52px;
+
+		[type="button"] {
+			display: none;
+		}
+	}
+}
+
+.first-screen-title {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 126%; /* 70.56px */
+	text-transform: uppercase;
+	font-style: normal;
+	max-width: 463px;
+	margin-bottom: 8px;
+}
+
+.first-screen-subtitle {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 135.5%;
+	font-style: normal;
+	max-width: 345px;
+	margin-bottom: 37px;
 }
