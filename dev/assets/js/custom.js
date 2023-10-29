@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$(".first-screen-slider").slick({
 		dots: true,
-		arrows: false,
+		appendArrows: "first-screen-nav",
 	});
 });
 
