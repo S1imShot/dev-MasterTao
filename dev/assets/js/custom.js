@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$(".first-screen-slider").slick({
 		dots: true,
-		appendArrows: "first-screen-nav",
+		appendArrows: ".first-screen-nav",
 	});
 });
 

@@ -28,10 +28,16 @@ body {
 	font-weight: 600;
 	line-height: 146%;
 	padding: 20px 29px;
-}
-
-.arrow {
-	padding-left: 49px;
+	.arrow {
+		padding-left: 49px;
+	}
+	&:hover {
+		background: $color-secondary;
+		.arrow {
+			filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg)
+				brightness(180%) contrast(101%);
+		}
+	}
 }
 
 .btn:hover {
