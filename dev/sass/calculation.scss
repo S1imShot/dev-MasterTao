@@ -1,0 +1,21 @@
+.tamplate-title {
+	margin-top: 97px;
+	h2 {
+		position: relative;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 124.5%; /* 44.82px */
+		text-transform: uppercase;
+		&:after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			max-width: 85px;
+			height: 2px;
+			background-color: $color-secondary;
+			top: 70px;
+			right: 75px;
+		}
+	}
+}
