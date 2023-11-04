@@ -21,3 +21,8 @@ burger.addEventListener("click", function () {
 document.getElementById("fileInput").onchange = function () {
 	document.getElementById("file-name").innerHTML = this.value;
 };
+
+const checkButton = document.querySelectorAll('[type="checkbox"]');
+checkButton.forEach((item, index) => {
+	index === 0 ? item.closest(".input-box").classList.add("has-checkbox") : null;
+});

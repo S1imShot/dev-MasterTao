@@ -65,8 +65,7 @@ label {
 .input-box {
 	display: flex;
 	flex-direction: column;
-	margin-right: 30px;
-	margin-top: 20px;
+
 	input {
 		color: #cbcbcb;
 		font-size: 15px;
@@ -107,7 +106,10 @@ label {
 		}
 	}
 }
-
-.btn:hover {
-}
 /* #endregion */
+
+/* for form */
+.has-checkbox {
+	margin-bottom: 8px;
+	padding-top: 21px;
+}
