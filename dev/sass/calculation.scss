@@ -1,5 +1,8 @@
+.calculation {
+	padding-top: 97px;
+}
+
 .tamplate-title {
-	margin-top: 97px;
 	h2 {
 		position: relative;
 		font-size: 36px;
@@ -23,11 +26,51 @@
 .calculation-form {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
+	.btn-arrow {
+		padding: 20px 20px;
+	}
+}
+
+.calc-row {
+	display: flex;
 }
 
 .wrapper {
-	width: 626px;
-	height: 597px;
+	max-width: 626px;
+	height: auto;
 	border-radius: 20px;
 	background-color: #363a4d;
+	padding: 50px;
+}
+
+label[for="fileInput"] {
+	cursor: pointer;
+	border: 1px dashed #fff;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	margin-bottom: 26px;
+	border-radius: 10px;
+	border: 1px dashed rgba(255, 255, 255, 0.26);
+	&:hover {
+		border: 1px dashed $color-secondary;
+	}
+}
+
+// .decoration__img-box {
+// 	margin-left: -45px;
+// 	margin-bottom: -104px;
+// 	margin-top: -144px;
+// }
+
+.calculation {
+	.container {
+		position: relative;
+	}
+	&__img-box {
+		position: absolute;
+		bottom: -100px;
+		right: -17px;
+	}
 }

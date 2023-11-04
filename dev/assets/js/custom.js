@@ -17,3 +17,7 @@ const burger = document.querySelector(".hamburger");
 burger.addEventListener("click", function () {
 	burger.classList.toggle("is-active");
 });
+
+document.getElementById("fileInput").onchange = function () {
+	document.getElementById("file-name").innerHTML = this.value;
+};

@@ -31,7 +31,8 @@ label {
 	}
 }
 
-[type="checkbox"] {
+[type="checkbox"],
+[type="file"] {
 	display: none;
 	&:checked {
 		+ label {
@@ -65,6 +66,7 @@ label {
 	display: flex;
 	flex-direction: column;
 	margin-right: 30px;
+	margin-top: 20px;
 	input {
 		color: #cbcbcb;
 		font-size: 15px;
@@ -78,6 +80,9 @@ label {
 	border-radius: 90px;
 	background: $color-primary;
 	color: #fff;
+	&:hover {
+		background-color: $color-secondary;
+	}
 }
 
 .btn-arrow {
@@ -89,7 +94,8 @@ label {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 146%;
-	padding: 20px 29px;
+	padding: 19.4px 34px;
+
 	.arrow {
 		padding-left: 49px;
 	}
@@ -103,6 +109,5 @@ label {
 }
 
 .btn:hover {
-	background-color: $color-secondary;
 }
 /* #endregion */
