@@ -3,9 +3,12 @@
 }
 
 .calculation-form {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
+	max-width: 626px;
+	width: 100%;
+	border-radius: 20px;
+	background-color: #363a4d;
+	padding: 50px 35px 42px;
+
 	.btn-arrow {
 		padding: 20px 20px;
 	}
@@ -13,16 +16,6 @@
 
 .calc-row {
 	display: flex;
-}
-
-.wrapper {
-	max-width: 626px;
-	width: 100%;
-	height: auto;
-	border-radius: 20px;
-	background-color: #363a4d;
-	padding: 50px 35px 42px;
-	margin-left: 15px;
 }
 
 label[for="fileInput"] {

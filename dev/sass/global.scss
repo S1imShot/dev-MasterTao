@@ -69,7 +69,7 @@ label {
 	input {
 		color: #cbcbcb;
 		font-size: 15px;
-		padding: 19px 20px;
+		padding-left: 20px;
 	}
 }
 
@@ -136,7 +136,7 @@ label {
 		content: "";
 		position: absolute;
 		display: inline-block;
-		background-color: $color-secondary;
+		background-color: $color-primary;
 		left: 50%;
 		top: calc(100% - 2px);
 		transform: translate(-50%, 0);
@@ -146,7 +146,6 @@ label {
 
 	&.col-lg-7 {
 		margin-bottom: 35px;
-		text-align: left;
 		h2 {
 			&::after {
 				content: "";
@@ -157,9 +156,6 @@ label {
 				height: 2px;
 				margin: 10px 10px 10px 19px;
 			}
-		}
-		&::after {
-			display: none;
 		}
 	}
 }

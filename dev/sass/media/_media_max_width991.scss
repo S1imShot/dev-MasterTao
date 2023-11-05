@@ -1,4 +1,27 @@
 @media screen and (max-width: 991px) {
+	.container {
+		.template-title {
+			h2 {
+				font-size: 24px;
+			}
+
+			h3 {
+				font-size: 16px;
+			}
+			&.col-lg-7 {
+				margin-bottom: 56px;
+				h2 {
+					&::after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.first-screen {
+		margin-bottom: 56px;
+	}
+
 	.first-screen-slider {
 		.slick-slide {
 			height: calc(100vh - 72px);
@@ -69,6 +92,10 @@
 		font-size: 16px;
 		margin-bottom: 18px;
 		max-width: 275px;
+	}
+
+	.calculation-form {
+		padding: 49px 15px 42px;
 	}
 
 	.decoration__img {
