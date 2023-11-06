@@ -5,6 +5,7 @@ body {
 
 .slick-dots {
 	display: flex;
+	justify-content: center;
 	position: absolute;
 	padding: 0;
 	margin: 0;
@@ -156,6 +157,7 @@ label {
 	padding-bottom: 18px;
 
 	h2 {
+		font-size: 36px;
 		line-height: 124.5%;
 		text-transform: uppercase;
 		margin-bottom: 6px;
@@ -208,3 +210,24 @@ label {
 	font-weight: 400;
 	line-height: 124.5%; /* 22.41px */
 }
+
+// for background
+
+// section {
+// 	position: relative;
+// }
+// .container-fluid {
+// 	padding: 85px 20px 100px;
+// 	position: relative;
+// 	&::before {
+// 		content: "";
+// 		position: absolute;
+// 		border-radius: 20px;
+// 		left: 42px;
+// 		right: 42px;
+// 		top: 0;
+// 		height: 100%;
+// 		background-color: #363a4d;
+// 		z-index: -1;
+// 	}
+// }
