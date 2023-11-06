@@ -3,118 +3,119 @@
 		<div class="template-title col-lg-7 text-left">
 			<h2>Получить рассчет стоимости доставки вашего груза</h2>
 		</div>
-
-		<form class="calculation-form col-lg-6">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="input-box">
-						<label for="fname">Категория товара:</label>
-						<input
-							type="text"
-							name="fname"
-							id="fname"
-							placeholder="Категория товара"
-						/>
-					</div>
-					<div class="input-box">
-						<label for="weight">Вес груза (кг):</label>
-						<input
-							type="number"
-							name="weight"
-							id="weight"
-							min="1"
-							max="10"
-							placeholder="Вес груза (кг):"
-						/>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="input-box">
-						<label for="price">Стоимость груза:</label>
-						<input
-							type="text"
-							name="price"
-							id="price"
-							placeholder="Стоимость груза:"
-						/>
-					</div>
-					<div class="input-box">
-						<label for="volume">Объем груза (м3):</label>
-						<input
-							type="number"
-							name="volume"
-							id="volume"
-							min="1"
-							max="10"
-							placeholder="Объем груза (м3):"
-						/>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="input-box">
-						<div class="check-wrapper">
+		<div class="calc-row">
+			<form class="calculation-form col-lg-6">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="input-box">
+							<label for="fname">Категория товара:</label>
 							<input
-								type="checkbox"
-								name="insurance"
-								id="insurance"
-								placeholder="Страховка"
-								value="insurance"
+								type="text"
+								name="fname"
+								id="fname"
+								placeholder="Категория товара"
 							/>
-							<label for="insurance">Страховка</label>
+						</div>
+						<div class="input-box">
+							<label for="weight">Вес груза (кг):</label>
+							<input
+								type="number"
+								name="weight"
+								id="weight"
+								min="1"
+								max="10"
+								placeholder="Вес груза (кг):"
+							/>
 						</div>
 					</div>
-					<div class="input-box">
-						<div class="check-wrapper">
+					<div class="col-lg-6">
+						<div class="input-box">
+							<label for="price">Стоимость груза:</label>
 							<input
-								type="checkbox"
-								name="customs-clearance"
-								id="customs-clearance"
-								placeholder="Таможенное оформление"
-								value="customs-clearance"
+								type="text"
+								name="price"
+								id="price"
+								placeholder="Стоимость груза:"
 							/>
-							<label for="customs-clearance">Таможенное оформление</label>
+						</div>
+						<div class="input-box">
+							<label for="volume">Объем груза (м3):</label>
+							<input
+								type="number"
+								name="volume"
+								id="volume"
+								min="1"
+								max="10"
+								placeholder="Объем груза (м3):"
+							/>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<div class="input-box">
-						<label for="invoice">Код ТН ВЭД:</label>
-						<input
-							type="number"
-							name="invoice"
-							id="invoice"
-							placeholder="Введите код"
-						/>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="input-box">
+							<div class="check-wrapper">
+								<input
+									type="checkbox"
+									name="insurance"
+									id="insurance"
+									placeholder="Страховка"
+									value="insurance"
+								/>
+								<label for="insurance">Страховка</label>
+							</div>
+						</div>
+						<div class="input-box">
+							<div class="check-wrapper">
+								<input
+									type="checkbox"
+									name="customs-clearance"
+									id="customs-clearance"
+									placeholder="Таможенное оформление"
+									value="customs-clearance"
+								/>
+								<label for="customs-clearance">Таможенное оформление</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="input-box">
+							<label for="invoice">Код ТН ВЭД:</label>
+							<input
+								type="number"
+								name="invoice"
+								id="invoice"
+								placeholder="Введите код"
+							/>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="input-file">
-						<div id="file-name"></div>
-						<label for="fileInput">Загрузить фото товара</label>
-						<input type="file" id="fileInput" name="myfile" />
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="input-file">
+							<div id="file-name"></div>
+							<label for="fileInput">Загрузить фото товара</label>
+							<input type="file" id="fileInput" name="myfile" />
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-lg-12">
-					<button type="button" class="btn-arrow">
-						Следующий шаг
-						<img
-							src="assets/img/arrow-circle-left 1.svg"
-							class="arrow"
-							alt="arrow-circle-left"
-						/>
-					</button>
+				<div class="row">
+					<div class="col-lg-12">
+						<button type="button" class="btn-arrow">
+							Следующий шаг
+							<img
+								src="assets/img/arrow-circle-left 1.svg"
+								class="arrow"
+								alt="arrow-circle-left"
+							/>
+						</button>
+					</div>
 				</div>
+			</form>
+			<div class="decoration__img-box col-lg-6">
+				<img src="assets/img/man.png" class="decoration__img" alt="" />
 			</div>
-		</form>
-		<div class="decoration__img-box col-lg-6">
-			<img src="assets/img/man.png" class="decoration__img" alt="" />
 		</div>
 	</div>
 </section>

@@ -7,41 +7,6 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
-
-	.slick-dots {
-		display: flex;
-		position: absolute;
-		padding: 0;
-		margin: 0;
-		left: 50%;
-		transform: translate(-50%, 0);
-		bottom: 40px;
-
-		li {
-			margin: 0 13px;
-			height: 8px;
-			font-size: 0;
-
-			&:hover {
-				cursor: pointer;
-			}
-
-			&.slick-active {
-				button {
-					background-color: #fff;
-				}
-			}
-		}
-		button {
-			padding: 0px;
-			border-radius: 50%;
-
-			border: 2px solid #ffffff;
-			width: 8px;
-			height: 8px;
-			background: transparent;
-		}
-	}
 }
 .slick-prev {
 	transform: rotate(180deg);
