@@ -1,0 +1,65 @@
+.delivery-slider {
+	.slick-track {
+		margin: 0 -15px;
+	}
+}
+
+.card {
+	border: none;
+	border-radius: 20px;
+	background: #363a4d;
+	color: #fff;
+	overflow: hidden;
+	margin: 0 15px;
+	padding: 0 20px 27px;
+	align-items: center;
+	&-img {
+		width: calc(100% + 40px);
+		margin: 0px -20px 27px;
+		img {
+			height: 229px;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	&-title {
+		margin-bottom: 12px;
+		line-height: 124.5%;
+		font-size: 22px;
+	}
+	&-attr {
+		display: flex;
+		gap: 35px;
+		margin-bottom: 8px;
+	}
+
+	&-button-row {
+		display: flex;
+		gap: 14px;
+		.btn {
+			width: 148px;
+			padding: 13px 10px;
+		}
+	}
+	&-price {
+		margin-bottom: 22px;
+		text-align: center;
+		span {
+			font-size: 22px;
+			line-height: 124.5%;
+			&:first-child {
+				color: #a3a3a3;
+			}
+		}
+	}
+	&-attr-item {
+		display: flex;
+		img {
+			margin-right: 8px;
+		}
+	}
+	strong {
+		font-size: 45px;
+		line-height: 124.5%;
+	}
+}

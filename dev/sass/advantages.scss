@@ -1,9 +1,17 @@
 .advantages {
-	border-radius: 20px;
-	background: linear-gradient(0deg, #363a4d 0%, #363a4d 100%), #f7f7f7;
-
-	// .row {  (з урока)
-	// 	margin-bottom: -48px;
+	position: relative;
+	// &::before {
+	// 	position: absolute;
+	// 	content: "";
+	// 	height: 100%;
+	// 	left: 50px;
+	// 	right: 50px;
+	// 	background: linear-gradient(0deg, #363a4d 0%, #363a4d 100%), #f7f7f7;
+	// 	border-radius: 20px;
+	// 	z-index: -1;
+	// 	// .row {  (з урока)
+	// 	// 	margin-bottom: -48px;
+	// 	// }
 	// }
 }
 
