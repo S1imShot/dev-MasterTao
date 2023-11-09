@@ -114,8 +114,20 @@
 		display: none;
 	}
 
-	.advantages {
-		border-radius: 0; // Чому не працює у мобілці ?? специфічність однакова
+	.calculation {
+		.template-title {
+			&::after {
+				background-color: $color-secondary;
+			}
+		}
+	}
+
+	.calc-row {
+		justify-content: center;
+	}
+
+	section.advantages {
+		border-radius: 0;
 		.template-title {
 			h2 {
 				font-size: 24px;

@@ -4,7 +4,7 @@
 
 .calc-row {
 	display: flex;
-	align-items: flex-start;
+	align-items: stretch;
 }
 
 .calculation-form {
@@ -33,9 +33,13 @@ label[for="fileInput"] {
 	}
 }
 
-.calc-row {
-	.decoration__img-box {
-		margin-left: -43px;
-		margin-top: -177px;
+.decoration__img {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 35px;
+	&-box {
+		position: relative;
+		flex-shrink: 2;
 	}
 }
