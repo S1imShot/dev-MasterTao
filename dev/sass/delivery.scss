@@ -1,6 +1,19 @@
 .delivery-slider {
-	.slick-track {
+	.slick-list {
 		margin: 0 -15px;
+	}
+	.slick-arrow {
+		position: absolute;
+		&.slick-prev {
+			left: -114px;
+			top: 50%;
+			transform: translate(0, -50%) rotate(180deg);
+		}
+		&.slick-next {
+			right: -114px;
+			top: 50%;
+			transform: translate(0, -50%);
+		}
 	}
 }
 
@@ -13,6 +26,9 @@
 	margin: 0 15px;
 	padding: 0 20px 27px;
 	align-items: center;
+	max-width: 360px;
+	box-shadow: 5px 15px 40px 0px rgba(30, 35, 66, 0.15);
+
 	&-img {
 		width: calc(100% + 40px);
 		margin: 0px -20px 27px;
@@ -26,6 +42,7 @@
 		margin-bottom: 12px;
 		line-height: 124.5%;
 		font-size: 22px;
+		text-align: center;
 	}
 	&-attr {
 		display: flex;
@@ -37,7 +54,7 @@
 		display: flex;
 		gap: 14px;
 		.btn {
-			width: 148px;
+			width: 153px;
 			padding: 13px 10px;
 		}
 	}
@@ -56,6 +73,7 @@
 		display: flex;
 		img {
 			margin-right: 8px;
+			max-width: 24px;
 		}
 	}
 	strong {

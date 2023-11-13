@@ -1,5 +1,6 @@
 .advantages {
 	position: relative;
+	margin-bottom: 97px;
 	// &::before {
 	// 	position: absolute;
 	// 	content: "";
@@ -13,6 +14,14 @@
 	// 	// 	margin-bottom: -48px;
 	// 	// }
 	// }
+	.slick-dots {
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+		bottom: 40px;
+	}
 }
 
 .advantage {

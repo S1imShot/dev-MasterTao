@@ -1,0 +1,47 @@
+.services {
+	position: relative;
+	.delivery-slider {
+		.card {
+			align-items: flex-start;
+			height: 482px;
+			&:before {
+				position: absolute;
+				content: "";
+				display: inline-block;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				z-index: 1;
+				background: linear-gradient(
+					0deg,
+					rgba(4, 5, 17, 0.91) 0%,
+					rgba(88, 88, 88, 0) 100%
+				);
+			}
+		}
+		.card-img {
+			img {
+				position: absolute;
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.card-title {
+			margin-bottom: 12px;
+			line-height: 124.5%;
+			text-align: center;
+			margin-top: auto;
+		}
+		.card-description {
+			margin-bottom: 14px;
+		}
+		.card-title,
+		.card-description,
+		.card-button-row {
+			z-index: 1;
+		}
+	}
+}

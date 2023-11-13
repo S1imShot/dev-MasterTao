@@ -32,6 +32,14 @@
 
 	.first-screen {
 		margin-bottom: 56px;
+		.slick-dots {
+			position: absolute;
+			padding: 0;
+			margin: 0;
+			left: 50%;
+			transform: translate(-50%, 0);
+			bottom: 40px;
+		}
 	}
 
 	.first-screen-slider {
@@ -127,6 +135,7 @@
 	}
 
 	section.advantages {
+		margin-bottom: 54px;
 		&::before {
 			border-radius: 0;
 			width: 100%;
@@ -137,6 +146,20 @@
 				font-size: 24px;
 				padding-top: 56px;
 			}
+		}
+	}
+	.delivery {
+		.delivery-slider {
+			max-width: 360px;
+			.slick-list {
+				margin: 0 -15px 32px;
+			}
+		}
+	}
+	.card-button-row {
+		.btn {
+			width: 138px;
+			padding: 13px 5px;
 		}
 	}
 }

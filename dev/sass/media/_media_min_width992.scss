@@ -18,10 +18,19 @@
 			}
 		}
 	}
-
-	.template-title {
-		h2 {
-			padding-top: 90px;
+	.first-screen {
+		.slick-dots {
+			position: absolute;
+			padding: 0;
+			margin: 0;
+			left: 50%;
+			transform: translate(-50%, 0);
+			bottom: 40px;
 		}
 	}
+
+	// .template-title {
+	// 	h2 {
+	// 	}
+	// }
 }
