@@ -163,14 +163,13 @@ label {
 	position: relative;
 	margin-bottom: 50px;
 	padding-bottom: 18px;
-
+	padding-top: 90px;
 	h2 {
 		font-size: 36px;
 		line-height: 124.5%;
 		text-transform: uppercase;
 		margin-bottom: 6px;
 		font-weight: 700;
-		padding-top: 90px;
 	}
 
 	h3 {
@@ -257,4 +256,8 @@ label {
 
 .delivery {
 	margin-bottom: 93px;
+
+	.template-title {
+		padding-top: 0;
+	}
 }
