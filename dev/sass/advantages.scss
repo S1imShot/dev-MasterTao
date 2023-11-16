@@ -1,7 +1,7 @@
 .advantages {
 	position: relative;
 	margin-bottom: 97px;
-
+	padding-top: 90px;
 	.slick-dots {
 		position: absolute;
 		padding: 0;
@@ -23,6 +23,9 @@
 		height: 113px;
 		padding: 10px;
 		margin: 0 auto 22px;
+		&:hover {
+			border: 1px solid $color-secondary;
+		}
 	}
 	img {
 		background: $color-secondary;
