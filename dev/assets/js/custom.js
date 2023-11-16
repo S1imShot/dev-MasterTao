@@ -55,7 +55,7 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
 	});
 } // Mobile Only Slider
 
-$(".delivery-slider").slick({
+$(".template-slider").slick({
 	dots: false,
 	infinite: true,
 	speed: 300,

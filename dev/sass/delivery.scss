@@ -1,4 +1,4 @@
-.delivery-slider {
+.template-slider {
 	.slick-list {
 		margin: 0 -15px;
 	}
@@ -16,7 +16,13 @@
 		}
 	}
 }
-
+.delivery {
+	.template-title {
+		&::after {
+			background-color: #89c249;
+		}
+	}
+}
 .card {
 	border: none;
 	border-radius: 20px;

@@ -1,6 +1,6 @@
 @media screen and (max-width: 1399px) {
 	.delivery {
-		.delivery-slider {
+		.template-slider {
 			.slick-arrow {
 				&.slick-prev {
 					left: -92px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 1350px) {
-	.delivery-slider {
+	.template-slider {
 		max-width: 749px;
 		margin: 0 auto;
 	}

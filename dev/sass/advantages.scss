@@ -1,34 +1,22 @@
 .advantages {
 	position: relative;
 	margin-bottom: 97px;
-	// &::before {
-	// 	position: absolute;
-	// 	content: "";
-	// 	height: 100%;
-	// 	left: 50px;
-	// 	right: 50px;
-	// 	background: linear-gradient(0deg, #363a4d 0%, #363a4d 100%), #f7f7f7;
-	// 	border-radius: 20px;
-	// 	z-index: -1;
-	// 	// .row {  (з урока)
-	// 	// 	margin-bottom: -48px;
-	// 	// }
-	// }
+
 	.slick-dots {
 		position: absolute;
 		padding: 0;
 		margin: 0;
 		left: 50%;
 		transform: translate(-50%, 0);
-		bottom: 40px;
+		bottom: 60px;
 	}
 }
 
-.advantage {
+.advantage-slide {
 	text-align: center;
 	margin-bottom: 48px;
 
-	&__img-box {
+	.advantage__img-box {
 		border: 1px solid #6c7188;
 		border-radius: 50%;
 		width: 113px;
@@ -43,7 +31,7 @@
 		border-radius: 50%;
 		object-fit: scale-down;
 	}
-	&__text-box {
+	.advantage__text-box {
 		max-width: 160px;
 		margin: 0 auto;
 	}
