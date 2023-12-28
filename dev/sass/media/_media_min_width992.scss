@@ -29,8 +29,35 @@
 		}
 	}
 
-	// .template-title {
-	// 	h2 {
-	// 	}
-	// }
+	.about {
+		.template-title {
+			text-align: left;
+			margin-bottom: 44px;
+			&::after {
+				background-color: #89c249;
+				left: 0;
+				transform: translate(0px, 0px);
+			}
+		}
+		.about-description {
+			padding: 0 26px 0 0;
+			p {
+				padding: 0 13px;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: 170%;
+				margin-bottom: 24px;
+				span {
+					font-size: 18px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 170%;
+				}
+			}
+		}
+		.img-box {
+			margin-top: -165px;
+		}
+	}
 }

@@ -164,6 +164,7 @@
 
 	section.services {
 		padding-bottom: 59px;
+		margin-bottom: 54px;
 	}
 	.card-button-row {
 		.btn {
@@ -176,6 +177,30 @@
 			border-radius: 0;
 			width: 100%;
 			left: 0px;
+		}
+	}
+
+	.about {
+		.template-title {
+			text-align: center;
+			margin-bottom: 25px;
+			&::after {
+				background-color: #89c249;
+			}
+		}
+		p {
+			text-align: justify;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 149.5%; /* 23.92px */
+		}
+		.about-description {
+			padding: 0 20px;
+			margin-bottom: 40px;
+		}
+		.img-box {
+			display: flex;
+			justify-content: center;
 		}
 	}
 }
