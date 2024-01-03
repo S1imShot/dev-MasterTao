@@ -49,7 +49,9 @@ label {
 }
 
 [type="text"],
-[type="number"] {
+[type="number"],
+[type="tel"],
+[type="email"] {
 	width: 100%;
 	height: 56px;
 	border-radius: 10px;
@@ -233,10 +235,18 @@ label {
 }
 
 [type="text"]:hover,
-[type="number"]:hover {
+[type="number"]:hover,
+[type="tel"]:hover,
+[type="email"]:hover {
 	border: 3px solid $color-primary;
 }
 [type="text"]:focus,
-[type="number"]:focus {
+[type="number"]:focus,
+[type="tel"]:focus,
+[type="email"]:focus {
 	border: 3px solid $color-secondary;
+}
+
+.about {
+	margin-bottom: 50px;
 }
