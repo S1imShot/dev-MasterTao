@@ -1,4 +1,8 @@
+.questions {
+	margin-bottom: 100px;
+}
 .accordion-flush {
+	margin-right: 25px;
 	.accordion-item:first-child,
 	.accordion-item:last-child,
 	.accordion-item {
@@ -20,6 +24,11 @@
 		font-size: 17px;
 		font-weight: 300;
 		line-height: 144.5%;
+		p {
+			max-width: 583px;
+			padding-left: 16px;
+			margin-bottom: 0;
+		}
 	}
 	.accordion-button {
 		background-color: transparent;
@@ -28,6 +37,7 @@
 		font-style: normal;
 		font-weight: 700;
 		line-height: 124.5%;
+		padding-left: 35px;
 		&:focus {
 			box-shadow: none;
 			border: none;
@@ -58,13 +68,18 @@
 	background-color: #363a4d;
 	border-radius: 20px;
 	padding: 38px 40px;
+	box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
 	.input-box {
+		input {
+			margin-bottom: 14px;
+		}
 		#text {
 			padding: 15px 20px;
 			font-size: 15px;
 			resize: none;
 			overflow: hidden;
 			height: 70px;
+			margin-bottom: 26px;
 		}
 	}
 
@@ -85,8 +100,8 @@
 	}
 	.btn-arrow {
 		padding: 19.4px 25px;
+		width: 100%;
 		.arrow {
-			padding-left: 95px;
 		}
 	}
 }

@@ -203,4 +203,16 @@
 			justify-content: center;
 		}
 	}
+	.questions {
+		margin-bottom: 60px;
+		.accordion-flush {
+			margin-bottom: 28px;
+		}
+		.questions-form {
+			max-width: 335px;
+			margin: 0 auto;
+			text-align: center;
+			padding: 38px 20px;
+		}
+	}
 }

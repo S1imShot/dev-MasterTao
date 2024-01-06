@@ -65,5 +65,12 @@
 		.template-title {
 			margin-bottom: 49px;
 		}
+		.row {
+			justify-content: center;
+		}
+	}
+
+	.accordion-flush {
+		max-width: 545px;
 	}
 }
