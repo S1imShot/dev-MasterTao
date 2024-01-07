@@ -165,18 +165,16 @@
 	section.services {
 		padding-bottom: 59px;
 		margin-bottom: 54px;
+		&::before {
+			border-radius: 0;
+			width: 100%;
+			left: 0px;
+		}
 	}
 	.card-button-row {
 		.btn {
 			width: 138px;
 			padding: 13px 5px;
-		}
-	}
-	section.services {
-		&::before {
-			border-radius: 0;
-			width: 100%;
-			left: 0px;
 		}
 	}
 
@@ -213,6 +211,18 @@
 			margin: 0 auto;
 			text-align: center;
 			padding: 38px 20px;
+		}
+	}
+
+	section.cooperate {
+		&::before {
+			border-radius: 0;
+			width: 100%;
+			left: 0px;
+		}
+		.row-first {
+			flex-direction: column-reverse;
+			align-items: center;
 		}
 	}
 }
