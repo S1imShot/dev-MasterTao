@@ -1,5 +1,6 @@
 @media screen and (max-width: 991px) {
 	.container {
+		padding: 0 20px;
 		.template-title {
 			margin-bottom: 36px;
 			h2 {
@@ -215,14 +216,35 @@
 	}
 
 	section.cooperate {
+		margin-bottom: 60px;
+		padding: 54px 20px 60px;
 		&::before {
 			border-radius: 0;
 			width: 100%;
 			left: 0px;
 		}
-		.row-first {
-			flex-direction: column-reverse;
-			align-items: center;
+		.container {
+			padding: 0;
+		}
+		.template-title {
+			margin-bottom: 43px;
+		}
+		.cooperate-description {
+			.description {
+				margin: 0 auto;
+			}
+			.second {
+				margin-bottom: 29px;
+			}
+		}
+		.cooperate-image {
+			margin-bottom: 36px;
+		}
+		.row {
+			margin-bottom: 43px;
+		}
+		button {
+			margin: 0 auto;
 		}
 	}
 }
