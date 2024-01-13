@@ -60,7 +60,8 @@
 		box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
 	}
 	button {
-		width: 243px;
+		max-width: 243px;
+		width: 100%;
 	}
 	.cooperate-image {
 		display: flex;

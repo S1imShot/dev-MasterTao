@@ -194,7 +194,6 @@
 			line-height: 149.5%; /* 23.92px */
 		}
 		.about-description {
-			padding: 0 20px;
 			margin-bottom: 40px;
 		}
 		.img-box {
@@ -202,10 +201,23 @@
 			justify-content: center;
 		}
 	}
-	.questions {
+	#questions {
 		margin-bottom: 60px;
 		.accordion-flush {
 			margin-bottom: 28px;
+			.accordion-body {
+				padding-top: 0;
+				p {
+					padding-left: 0;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 144.5%;
+				}
+			}
+			.accordion-button {
+				font-size: 16px;
+				padding: 12px 20px 12px 22px;
+			}
 		}
 		.questions-form {
 			max-width: 335px;
@@ -228,6 +240,9 @@
 		}
 		.template-title {
 			margin-bottom: 43px;
+			h4 {
+				font-size: 16px;
+			}
 		}
 		.cooperate-description {
 			.description {
@@ -235,6 +250,11 @@
 			}
 			.second {
 				margin-bottom: 29px;
+			}
+			li {
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 149.5%;
 			}
 		}
 		.cooperate-image {
@@ -244,7 +264,24 @@
 			margin-bottom: 43px;
 		}
 		button {
+			max-width: 335px;
 			margin: 0 auto;
+		}
+	}
+
+	.footer {
+		.body-footer {
+			justify-content: center;
+			&__adress {
+				text-align: center;
+				img {
+					margin-bottom: 28px;
+				}
+			}
+		}
+
+		.body-footer__menu {
+			display: none;
 		}
 	}
 }
