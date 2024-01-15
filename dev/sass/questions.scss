@@ -79,6 +79,16 @@
 			overflow: hidden;
 			height: 70px;
 			margin-bottom: 26px;
+			border-radius: 10px;
+			border: none;
+   			outline: none;
+			color: #cbcbcb;
+			&:hover {
+				border: 3px solid $color-primary;
+			}
+			&:focus {
+				border: 3px solid $color-secondary;
+			}
 		}
 	}
 
