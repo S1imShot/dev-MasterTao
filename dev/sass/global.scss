@@ -3,6 +3,10 @@ body {
 	color: #fff;
 }
 
+*:hover {
+	transition: all 0.3s linear;
+}
+
 .slick-dots {
 	display: flex;
 	justify-content: center;

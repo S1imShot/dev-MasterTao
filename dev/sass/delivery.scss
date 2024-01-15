@@ -19,7 +19,7 @@
 .delivery {
 	.template-title {
 		&::after {
-			background-color: #89c249;
+			background-color: $color-secondary;
 		}
 	}
 }

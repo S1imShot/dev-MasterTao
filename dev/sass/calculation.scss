@@ -2,25 +2,24 @@
 	.template-title {
 		padding-top: 0;
 	}
+	&-form {
+		max-width: 626px;
+		width: 100%;
+		border-radius: 20px;
+		background-color: #363a4d;
+		padding: 50px 35px 42px;
+		margin-bottom: 113px;
+		box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
+		.btn-arrow {
+			padding: 20px 20px;
+			width: 253px;
+		}
+	}
 }
 
 .calc-row {
 	display: flex;
 	align-items: stretch;
-}
-
-.calculation-form {
-	max-width: 626px;
-	width: 100%;
-	border-radius: 20px;
-	background-color: #363a4d;
-	padding: 50px 35px 42px;
-	margin-bottom: 113px;
-	box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
-	.btn-arrow {
-		padding: 20px 20px;
-		width: 253px;
-	}
 }
 
 label[for="fileInput"] {

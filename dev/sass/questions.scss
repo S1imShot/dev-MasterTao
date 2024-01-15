@@ -12,7 +12,7 @@
 		overflow: hidden;
 		background-color: transparent;
 		&:hover {
-			border: 1px solid #89c249;
+			border: 1px solid $color-secondary;
 		}
 		&:last-child {
 			margin-bottom: 0px;
@@ -32,9 +32,8 @@
 	}
 	.accordion-button {
 		background-color: transparent;
-		color: white;
+		color: #fff;
 		font-size: 18px;
-		font-style: normal;
 		font-weight: 700;
 		line-height: 124.5%;
 		padding-left: 35px;
@@ -101,7 +100,5 @@
 	.btn-arrow {
 		padding: 19.4px 25px;
 		width: 100%;
-		.arrow {
-		}
 	}
 }
