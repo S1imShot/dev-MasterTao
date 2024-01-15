@@ -8,6 +8,10 @@
 
 	.body-footer {
 		display: flex;
+		&__media {
+			display: flex;
+			gap: 8px;
+		}
 		&__menu {
 			display: flex;
 			gap: 80px;
@@ -31,6 +35,17 @@
 						line-height: 162.5%;
 					}
 				}
+			}
+		}
+	}
+	.media-footer {
+		&__item {
+			text-decoration: none;
+			width: 33px;
+			height: 33px;
+			display: inline-block;
+			img {
+				width: 100%;
 			}
 		}
 	}

@@ -273,6 +273,9 @@
 	.footer {
 		.body-footer {
 			justify-content: center;
+			&__media {
+				justify-content: center;
+			}
 			&__menu {
 				display: none;
 			}
