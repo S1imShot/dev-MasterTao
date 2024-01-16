@@ -233,8 +233,8 @@
 		padding: 54px 20px 60px;
 		&::before {
 			border-radius: 0;
-			width: 100%;
-			left: 0px;
+			left: 0;
+			right: 0;
 		}
 		.container {
 			padding: 0;

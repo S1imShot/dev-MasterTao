@@ -1,10 +1,7 @@
 body {
 	background: #282b38;
 	color: #fff;
-}
-
-*:hover {
-	transition: all 0.3s linear;
+	overflow-x: hidden;
 }
 
 .slick-dots {
@@ -242,13 +239,13 @@ label {
 [type="number"]:hover,
 [type="tel"]:hover,
 [type="email"]:hover {
-	border: 3px solid $color-primary;
+	outline: 3px solid $color-primary;
 }
 [type="text"]:focus,
 [type="number"]:focus,
 [type="tel"]:focus,
 [type="email"]:focus {
-	border: 3px solid $color-secondary;
+	outline: 3px solid $color-secondary;
 }
 
 .about {

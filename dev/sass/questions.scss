@@ -84,10 +84,10 @@
    			outline: none;
 			color: #cbcbcb;
 			&:hover {
-				border: 3px solid $color-primary;
+				outline: 3px solid $color-primary;
 			}
 			&:focus {
-				border: 3px solid $color-secondary;
+				outline: 3px solid $color-secondary;
 			}
 		}
 	}
